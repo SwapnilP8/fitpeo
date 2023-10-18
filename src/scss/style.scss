@@ -1,0 +1,181 @@
+.four_back {
+  background-color: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.earning_col {
+  background-color: #e9fff3;
+  border-radius: 50%;
+  padding: 20px 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.earning_col1 {
+  background-color: #e7dbff;
+  border-radius: 50%;
+  padding: 20px 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.earning_col2 {
+  background-color: #cdf3fe;
+  border-radius: 50%;
+  padding: 20px 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.earning_col3 {
+  background-color: #ffc7ea;
+  border-radius: 50%;
+  padding: 20px 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.input1 {
+  border: none;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.earning_img {
+  height: auto;
+  width: 100%;
+}
+
+.earning_text {
+  color: gray;
+  font-size: 12px;
+}
+
+.order_col {
+  background-color: #e7dbff;
+  border-radius: 50%;
+  padding: 18px 18px;
+  height: 70px;
+  width: 70px;
+}
+
+.order_img {
+  height: auto;
+  width: 100%;
+}
+
+.new_search {
+  border: none;
+}
+
+.seach_back {
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.sidebar {
+  --cui-sidebar-bg: #040440 !important;
+}
+
+.nav-link {
+  font-size: 15px !important;
+}
+
+.left_space {
+  padding-left: 0px !important;
+}
+
+.top_space {
+  padding-top: 5%;
+  line-height: 1.2;
+}
+
+.dollaer_num {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.percent_num {
+  font-size: 11px;
+  color: #51c687;
+}
+
+.percent_num1 {
+  font-size: 11px;
+  color: red;
+}
+
+.this_text {
+  font-size: 11px;
+  margin-left: 2px
+}
+
+img,
+svg {
+  width: 100% !important;
+}
+
+.donutchart {
+  height: 350px !important;
+}
+
+.common_back {
+  background-color: #fff;
+  height: 100%;
+  margin-top: 5%;
+  border-radius: 10px
+}
+
+.tab_text {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cent_text {
+  text-align: center;
+}
+
+.lor_t {
+  font-size: 10px;
+  margin-top: 0;
+}
+
+@media (max-width: 320px) {
+  .lor_t{
+    font-size: 9px;
+  }
+  .fw-bold{
+    font-size: 10px;
+  }
+  b{
+    font-size: 10px;
+  }
+  .tab_text{
+    font-size: 10px
+  }
+}
+
+// If you want to override variables do it here
+@import "variables";
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// Import CoreUI for React components library
+@import "@coreui/coreui/scss/coreui";
+
+// Import Chart.js custom tooltips styles
+@import "@coreui/chartjs/scss/coreui-chartjs";
+
+@import "layout";
+@import "example";
+
+// If you want to add custom CSS you can put it here.
+@import "custom";
